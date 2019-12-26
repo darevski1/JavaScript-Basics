@@ -68,12 +68,28 @@
     console.log(colors);
     // output
     
-    0: "blue"
-​    1: "red"
-​    2: "green"
+     "blue"
+​     "red"
+​     "green"
 
    // We can acces to specific index of a array
    
    console.log(colors[0]);
    // output
    "blue"
+   ## 6. Functions
+
+    // Let`s define a function
+    function great(){
+        console.log();
+    }
+    // call function
+    great();
+
+
+    //Another example who has parameter name
+
+    function great(name){
+        console.log('Hello ' + name)
+    }
+    great("Darko");

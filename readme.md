@@ -1,25 +1,26 @@
-Javascript
-# 1. Javascript - Variables
+# ** Javascript **
 
-    define variable with keyword let <br />
+## 1. Javascript - Variables
+
+    //define variable with keyword let <br />
     let firstName = "Darko"; <br />
     let lastName = "Darevski"; <br />
 
-    let`s print in console <br />
+    //let`s print in console <br />
     console.log(firstName, lastName); <br />
 
     Output <br />
     Darko Darevski <br />
-# 2. Constant<br />
+## 2. Constant<br />
    The value of a constant can't be changed through reassignment, and it can't be redeclare<br />
 
-   define constant<br />
+   //define constant<br />
 
    const number = 43;<br />
    cosnole.log(number);<br />
-   output <br />
+   // output <br />
    43<br />
-# 3. Primitive Types 
+## 3. Primitive Types 
 
     - Boolean <br />
     - Null <br />
@@ -35,23 +36,23 @@ Javascript
     let number = 43; <br />
     let lastName = "Darevski"; <br />
 
-# 4. Object 
+## 4. Object 
     Every object has properties and methods
 
     // Create an object:
 
-    let car = {
+    `let car = {
             brand: "toyota",
             model: "corola",
             engine: "hybryd",
             year: 2019
-    }
+    }`
     // Lets print 
     console.log(car);
 
     // we can change the values of some property
 
-    car.brand = "Honda";
+    `car.brand = "Honda";`
     // Access  to property
-    console.log(car.brand);
+    `console.log(car.brand);`
  

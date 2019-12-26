@@ -1,5 +1,5 @@
 # ** Javascript **
-
+|---------------|----------|----------|
 ## 1. Javascript - Variables
 
     //define variable with keyword let <br />
